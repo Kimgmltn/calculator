@@ -16,7 +16,7 @@ class Calculator(QWidget):
         vbox.addWidget(self.btn1) # 버튼위치
         vbox.addStretch(1) # 빈 공간
 
-        self.layout(vbox) # 빈 공간 -버튼 - 빈 공간 순으로 수직 배치된 레이아웃 설정
+        self.setLayout(vbox) # 빈 공간 -버튼 - 빈 공간 순으로 수직 배치된 레이아웃 설정
 
         self.setWindowTitle('Calculator')
         self.resize(256,256)
