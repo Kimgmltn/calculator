@@ -14,7 +14,7 @@ class Calculator(QWidget):
         vbox=QVBoxLayout() # 수직 레이아웃 위젯 생성
         vbox.addStretch(1) # 빈 공간
         vbox.addWidget(self.btn1) # 버튼위치
-        vbox.addStrentch(1) # 빈 공간
+        vbox.addStretch(1) # 빈 공간
 
         self.layout(vbox) # 빈 공간 -버튼 - 빈 공간 순으로 수직 배치된 레이아웃 설정
 
