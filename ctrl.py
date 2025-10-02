@@ -37,4 +37,7 @@ class Control:
         
         return a/b
     def pow(self, a, b):
-        return pow(a, b)
+        if (a==b):
+            return 0
+        else:
+            return pow(a, b)
